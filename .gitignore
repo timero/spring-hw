@@ -31,13 +31,13 @@ local.properties
 .recommenders
 
 # Eclipse Core
-.project
+###.project
 
 # External tool builders
-.externalToolBuilders/
+###.externalToolBuilders/
 
 # Locally stored "Eclipse launch configurations"
-*.launch
+###*.launch
 
 # PyDev specific (Python IDE for Eclipse)
 *.pydevproject
@@ -71,13 +71,15 @@ local.properties
 
 
 ### Maven ###
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
+###target/
+###pom.xml.tag
+###pom.xml.releaseBackup
+###pom.xml.versionsBackup
+###pom.xml.next
+###release.properties
+###dependency-reduced-pom.xml
+###buildNumber.properties
+###.mvn/timing.properties
 
+/target/
+.project
