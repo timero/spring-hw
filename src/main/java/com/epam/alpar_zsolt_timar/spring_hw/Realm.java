@@ -13,14 +13,13 @@ public class Realm {
 		return persons;
 	}
 
-	public void setPersons(List<Person> persons) {
+	public Realm(String name, List<Person> persons) {
+		super();
+		this.name = name;
 		this.persons = persons;
 	}
 
-	public Realm(String name) {
-		super();
-		this.name = name;
-	}
+
 
 	public String getName() {
 		return name;
